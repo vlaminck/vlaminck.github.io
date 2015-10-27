@@ -1,1 +1,87 @@
-Hello World
+<html>
+<head>
+  <style>
+  @font-face {
+    font-family: "HBSketch";
+    src: url('fonts/HB Sketch Demo.otf') format('opentype');
+  }
+  @font-face {
+    font-family: "Calibri";
+    src: url('fonts/Calibri.ttf') format('opentype');
+  }
+  .me {
+    font-family: "HBSketch";
+    font-size: 4.5em;
+    color: #7D8F7D;
+    text-align: center;
+    /*padding-top: 0.3em;*/
+  }
+  .header {
+    margin-top: 0.1em;
+  }
+  .content {
+    max-width: 700px;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    padding: 0.5em 1em 1em, 1em;
+  }
+  .list-header {
+    font-weight: bold;
+    margin-top: 0.5em;
+    list-style-type: none;
+  }
+  .list-item {
+    font-weight: lighter;
+    list-style-type: none;
+  }
+  .position {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    color: #7E8F7C;
+  }
+  .position-description {
+    font-weight: lighter;
+    margin-top: -0.5em;
+  }
+  body {
+    font-family: "Calibri", sans-serif;
+    background-color: #f1f1f1;
+    color: #3B3738;
+  }
+  ul {
+    padding-left: 1em;
+  }
+  @media print {
+    .me {
+      font-family: "Calibri";
+    }
+  }
+  </style>
+</head>
+<body>
+  <div class="content">
+    <div class="me">Steve Vlaminck</div>
+    <h3 class="header">Who I Am</h3>
+    <p class="position-description">A passionate iOS developer with a varied background looking for interesting projects.</p>
+    <h3 class="header">What I Know</h3>
+    <ul>
+      <li class="list-header">Languages</li>
+      <li class="list-item">Swift, Objective-C, Groovy/Grails, jQuery, SQL, Java</li>
+      <li class="list-header">Frameworks</li>
+      <li class="list-item">AFNetworking, Mantle, PureLayout, Reactive Cocoa, Expecta, Realm, Cocoapods</li>
+      <li class="list-header">Tools</li>
+      <li class="list-item">Xcode, AppCode, PaintCode, Reveal, Intellij, Git, Github, TestFlight, HockeyApp</li>
+    </ul>
+    <h3 class="header">What I've Done</h3>
+    <p class="position">Senior Software Engineer, SmartThings; Minneapolis, MN; November 2012&ndash;Present</p>
+    <p class="position-description">As the first iOS dev at SmartThings, I've been lucky enough to architect, build, refactor, and maintain a large number of features alongside cloud devs and designers. I initially set up and continue to maintain certificates, identifiers, and profiles for the App Store and Enterprise developer programs with multiple distribution channels across both. As the only person at SmartThings that architects and builds features from developer API to cloud infrastructure to mobile API to mobile client, I have a vast knowledge and unique perspective of the SmartThings platform. I share this knowledge by leading various SmartApp and DeviceType development talks and hackathons at venues ranging from the SmartThings spaces, to Minnebar, to the Samsung Developers Conference.</p>
+    <p class="position">Organizer, Swift.mn; Minneapolis, MN; June 2014&ndash;present</p>
+    <p class="position-description">I started the SwiftMN user group to help our local tech scene stay on top of the latest technology. I organize SwiftMN by finding presenters, topics, and sponsors. I am also a frequent presenter.</p>
+    <p class="position">Software developer, Refactr; Minneapolis, MN; July 2009&ndash;November 2012</p>
+    <p class="position-description">I worked closely with clients to build rapid prototypes, then worked with their dev team to effectively transfer knowledge and codebase. I also helped build and maintain internal products like Lean-to and Milemarker. I was the lead developer/architect for needl.co and participated in the blueprinthealth.org accelerator in New York City. I created the first version of the SmartThings iOS app.</p>
+  </div>
+<body>
+<html>
